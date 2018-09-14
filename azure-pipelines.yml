@@ -23,5 +23,5 @@ jobs:
     vmImage: 'vs2017-win2016'
   steps:
   - script: |
-      nmake
+      cl
     displayName: 'nmake'
