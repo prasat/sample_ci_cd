@@ -8,5 +8,5 @@ pool:
 
 steps:
 - script: |
-    make
+    nmake
   displayName: 'make'
