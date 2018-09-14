@@ -4,7 +4,8 @@
 # https://docs.microsoft.com/vsts/pipelines/apps/c-cpp/gcc
 
 pool:
-  vmImage: 'Ubuntu 16.04'
+  vmImage: 'Ubuntu 16.04',
+  vmImage: 'macOS 11'
 
 steps:
 - script: |
